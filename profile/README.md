@@ -7,7 +7,7 @@
 黑胡子就是 Blackbeard，历史上最有名的海盗船长。<br>
 这里是他的“船长”系列开源工具，外加一间 AI API 便利店。
 
-<a href="https://github.com/heihuzi-labs"><img src="https://img.shields.io/badge/%E8%88%B9%E9%95%BF%E7%B3%BB%E5%88%97-4%20%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-111111?style=flat-square" alt="船长系列"></a>
+<a href="https://github.com/heihuzi-labs"><img src="https://img.shields.io/badge/%E8%88%B9%E9%95%BF%E7%B3%BB%E5%88%97-5%20%E4%B8%AA%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-111111?style=flat-square" alt="船长系列"></a>
 <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT">
 <a href="https://code.heihuzi.ai"><img src="https://img.shields.io/badge/%E9%BB%91%E8%83%A1%E5%AD%90%E4%BE%BF%E5%88%A9%E5%BA%97-code.heihuzi.ai-c8102e?style=flat-square" alt="黑胡子便利店"></a>
 
@@ -46,6 +46,19 @@
 <img src="https://img.shields.io/github/stars/heihuzi-labs/captain-ops?style=flat-square&label=%E2%98%85" alt="stars"> <img src="https://img.shields.io/badge/%E5%A0%A1%E5%9E%92%E6%9C%BA-%E8%83%BD%E7%94%A8-2ea44f?style=flat-square" alt="堡垒机能用"> <img src="https://img.shields.io/badge/AI%20%E5%8A%A9%E6%89%8B-%E8%AE%BE%E8%AE%A1%E4%B8%AD-d4a72c?style=flat-square" alt="AI 助手设计中">
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/heihuzi-labs/captain-password"><img src="https://raw.githubusercontent.com/heihuzi-labs/captain-password/main/docs/screenshots/main-detail.png" alt="船长密码箱"></a>
+<h4><a href="https://github.com/heihuzi-labs/captain-password">船长密码箱 · Captain Password</a></h4>
+只存在自己电脑上的密码管理器：一个主密码解锁，按 <code>Option + K</code> 就能搜到、复制走，不注册、不上传。<br><br>
+<img src="https://img.shields.io/github/stars/heihuzi-labs/captain-password?style=flat-square&label=%E2%98%85" alt="stars"> <img src="https://img.shields.io/github/v/release/heihuzi-labs/captain-password?style=flat-square&label=%E5%B7%B2%E5%8F%91%E5%B8%83" alt="release">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://code.heihuzi.ai">🏪 黑胡子便利店</a></h4>
+船长们平时用的 AI 接口，也开成了一间便利店：一个地址接入 GPT、Claude、DeepSeek，Codex 和 Claude Code 都能直接接上。地址和文档见<a href="#-黑胡子便利店--ai-api-中转站">下面</a>。<br><br>
+<a href="https://code.heihuzi.ai"><img src="https://img.shields.io/badge/code.heihuzi.ai-c8102e?style=flat-square" alt="code.heihuzi.ai"></a>
+</td>
+</tr>
 </table>
 
 ### 🏪 黑胡子便利店 · AI API 中转站
@@ -72,6 +85,7 @@
 - [Captain Agents](https://github.com/heihuzi-labs/captain-agents): one AI leads and hands coding work to the Codex, Grok and Cursor CLIs on your Mac, sandboxed and verified outside. *In use.*
 - [Captain Kube](https://github.com/heihuzi-labs/captain-kube): a single-cluster Kubernetes console for the people who run it. *Released.*
 - [Captain Todo](https://github.com/heihuzi-labs/captain-todo): a local-first desktop kanban whose data stays on your computer. *Released.*
+- [Captain Password](https://github.com/heihuzi-labs/captain-password): a local-only password manager; one master password, one shortcut to find and copy. *Released.*
 - [Captain Ops](https://github.com/heihuzi-labs/captain-ops): a bastion host with a web terminal, session replay, command blocking and full audit; an AI assistant that works through it is being designed. *Bastion usable, AI in design.*
 
 **Heihuzi Store** is our AI API gateway: one endpoint for GPT, Claude, DeepSeek and GPT Image models, speaking both the OpenAI (Responses, Chat Completions) and Anthropic (Messages) formats, ready for Codex, Claude Code and the OpenAI SDK. Store: https://code.heihuzi.ai · Docs: https://docs.heihuzi.ai/cn · Mirror: https://vim27.cc
