@@ -1,0 +1,46 @@
+name: 遇到问题 · Bug report
+description: 用着出错了、和说明写的不一样 · Something broke or doesn't match the docs
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢来报告！安全问题（比如能绕过限制、能读到别人的数据）请不要写在这里，到仓库的 **Security → Report a vulnerability** 私下告诉我们。
+        Thanks for reporting! For security issues, please use **Security → Report a vulnerability** instead of a public issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 · What happened
+      description: 你做了什么、看到了什么、本来以为会怎样 · What you did, what you saw, what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎么重现 · How to reproduce
+      description: 一步一步写，越具体越好 · Step by step, as concrete as you can
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本 · Version
+      description: 应用版本号，或者代码的提交号 · App version or commit
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 系统 · Environment
+      description: 比如 macOS 15 苹果芯片、Windows 11 · e.g. macOS 15 Apple silicon, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错和截图 · Errors and screenshots
+      description: 发之前请把密码、密钥、服务器地址、个人信息抹掉 · Remove passwords, keys, server addresses and personal data first

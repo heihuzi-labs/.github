@@ -1,0 +1,27 @@
+name: 想要的功能 · Feature idea
+description: 希望它能多做点什么、换个做法 · Something you'd like it to do, or do differently
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么事 · The problem
+      description: 先说遇到的麻烦，再说想法；知道为什么要，才好判断怎么做 · Start with the pain, then the idea
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你设想的做法 · Your idea
+      description: 大概怎么用、界面上怎么点，有草图更好 · How it would work; a sketch helps
+  - type: textarea
+    id: other
+    attributes:
+      label: 现在怎么凑合的 · Workarounds today
+      description: 别的工具怎么做的、你现在的临时办法 · How other tools do it, or what you do now
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: 参与 · Contributing
+      options:
+        - label: 我愿意自己动手写，提合并请求 · I'd like to build it and open a pull request

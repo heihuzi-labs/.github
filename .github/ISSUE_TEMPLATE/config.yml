@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 黑胡子便利店（AI API 中转站）· Heihuzi Store
+    url: https://docs.heihuzi.ai/cn
+    about: 中转站的接入和账户问题请看文档，不在这里处理 · Questions about the API store belong in its docs, not here
